@@ -1,0 +1,54 @@
+/* ConnectMeForm.css */
+
+.connect-me-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 110px auto;
+    padding: 25px;
+    background-color: #f4f4f4;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  .connect-me-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .connect-me-form form {
+    width: 100%;
+    max-width: 300px;
+  }
+  
+  .connect-me-form label {
+    font-weight: bold;
+  }
+  
+  .connect-me-form input,
+  .connect-me-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .connect-me-form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .connect-me-form button:hover {
+    background-color: #0ce764;
+  }
+  
