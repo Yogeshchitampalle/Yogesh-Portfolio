@@ -2,6 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
+import compound  from "../../Assets/Projects/compound-react.PNG"
 import news from "../../Assets/Projects/News.png";
 import flappy from "../../Assets/Projects/flappy.png";
 import foody from "../../Assets/Projects/food1.PNG";
@@ -21,6 +22,18 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+            
+            <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={compound}
+              isBlog={false}
+              title="Compound-react-App"
+              description="This app provides a simple yet powerful way to visualize the growth of investments over time, making it an excellent tool for financial planning and education."
+              ghLink="https://github.com/Yogeshchitampalle/compound-calc-react"
+              demoLink="https://fixedeposit-ci-react-calc.netlify.app/"
+            />
+          </Col>
+   
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={foody}
